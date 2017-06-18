@@ -1,5 +1,7 @@
 body {
     background-color: #ff4500;
+    /*display: block;*/
+    margin: 8px;
 }
 
 /*@media only screen and (min-width: 760px) {*/
@@ -7,9 +9,11 @@ body {
 	/*Picture format*/
 
 img {
-    display: block;
-    margin: 5px;
-    width: 90%;   
+    /*display: block;*/
+    margin: 10px;
+    width: 50%;  
+    margin-left: auto;
+    margin-right: auto;
 }
 img {
     border-radius: 50%;
@@ -17,30 +21,63 @@ img {
 
 h1 {
     text-align: center;
+    font-family: Monospace
+
 }
-.container-rubrik {
-	background-color: #ff4500;
-	/*margin : 5px;*/
-	padding: 10px;
-	border: 2px solid #00008B;
-	font-size: 15px;
-	font-weight: bold;
+ 
+
+/*
+.linkedin {
+	text-align: left;
+}
+
+.mailto {
+	/*text-align: right;*/
+	/*float: right;
+}*/
+/*
+
+	div.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: right;
+    width: 15px;
 	}
+
+	div.gallery:hover {
+    border: 1px solid #777;
+	}
+
+	div.gallery img {
+    width: auto;
+    height: auto;
+	}
+
+	/*div.desc {
+    padding: 15px;
+    text-align: center;
+	}*/
+}*/
+
+.container-rubrik {
+	background-color: #F4A460;
+	margin : 5px;
+	padding: 10px;
+	border: 3px solid #00008B;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: Monospace;
+	line-height: 25px;
 }
 
 
 
 .container-misc {
 	background-color: #F4A460;
-	margin: 4px;
+	margin: 6px;
 	padding: 10px;
-	border: 2px solid #00008B;
-	.p {
-	/*font-size: 14*/
+	border: 3px solid #00008B;
 	font-size: 100%
-    font-weight: bold;
-	}
-
 }
 
 ul {
@@ -50,4 +87,7 @@ ul {
     padding: 10px 20px;
 /*}*/
 
+}
+footer {
+	background-color: rgb();
 }
